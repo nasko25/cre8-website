@@ -1,0 +1,87 @@
+html {
+	overflow:scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+
+/* calendar */
+.calendar {
+	border-style: solid;
+	border-color: #aaaaaa;
+	border-width: 2px;
+	position:absolute;
+	top: 20em;
+	left: 5em;
+	width: 300px;
+	height: 500px;
+	overflow: auto;
+}
+
+.calendar_entries {
+	border-bottom: solid;
+	border-bottom-color: #00b3b3;
+	border-bottom-width: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 7px;
+}
+
+.to_the_right {
+	padding-right: 40px;
+	float: right;
+}
+.lower {
+	top: 70em;
+	
+}
+
+.time {
+	position: absolute;
+	top: 2em;
+	left: -2.2em;
+	color: #aaaaaa;
+	font-size: .8em;
+}
+
+.time2digits {
+	position: absolute;
+	top: 2em;
+	left: -2.6em;
+	color: #aaaaaa;
+	font-size: .8em;
+}
+
+.calendar_divisions {
+	position: relative;
+	border-bottom: solid;
+	border-bottom-color: #00b3b3;
+	border-bottom-width: 2px;
+	margin-left: 35px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	padding: 7px;
+}
+
+.occupied {
+	background: #81ACFF;
+	border-radius: 5px;
+}
+
+.procrastinate {
+	background: #4584FF;
+}
+
+.first-long {
+	border-bottom: none;
+	margin-bottom: 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.last-long {
+	border-radius: 0px 0px 5px 5px;
+	
+}
+
