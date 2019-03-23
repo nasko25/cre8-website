@@ -12,77 +12,96 @@
 		<div class = "calendar"> 
 			<!-- TODO implement it with js, reading from a db, and adding everything to a div box; there will be
 			a div.time; div.title; -->
-			<!-- https://stackoverflow.com/questions/9707397/making-a-div-vertically-scrollable-using-css -->
-			<div class = "calendar_entries"> 
-				7:00       	<span class = "to_the_right"> wake up </span>
+			<div class = "line">
+				<div class = "calendar_divisions occupied"> 
+					<span class = "time">7:00 </span>       	<span> wake up </span>
+				</div>
 			</div>
 			
-			<div class = "calendar_entries"> 
-				7:05        <span class = "to_the_right"> make breakfast/coffee </span>
+			<div class = "line">
+				<div class = "calendar_divisions occupied"> 
+					<span class = "time">8:00 </span>        <span> go to work </span>
+				</div>
 			</div>
 			
-			<div class = "calendar_entries"> 
-				7:15		<span class = "to_the_right"> eat </span>
+			<div class = "line">
+				<div class = "calendar_divisions"> 
+					<span class = "time">9:00 </span>		<span style = "padding: 3em;">  </span>
+				</div>
+			</div>			
+			
+			<div class = "line">
+				<div class = "calendar_divisions occupied procrastinate"> 
+					<span class = "time2digits">10:00 </span>		<span> procrastinate </span>
+				</div>
 			</div>
 			
-			<div class = "calendar_entries"> 
-				7:25		<span class = "to_the_right"> procrastinate </span>
+			<div class = "line  first-long">
+				<div class = "calendar_divisions occupied first-long"> 
+					<span class = "time2digits">11:00 </span>		<span> work </span>
+				</div>
+			</div>
+				
+			<div class = "line">
+				<div class = "calendar_divisions occupied last-long"> 
+					<span class = "time2digits">12:00 </span>		<span> work </span>
+				</div>
 			</div>
 			
-		</div>
+			<div class = "line">
+				<div class = "calendar_divisions occupied"> 
+					<span class = "time2digits">13:00 </span>		<span> lunch </span>
+				</div>
+			</div>
+			
+			<div class = "line">			
+				<div class = "calendar_divisions occupied procrastinate"> 
+					<span class = "time2digits">14:00 </span>		<span> procrastinate </span>
+				</div>
+			</div>
+			
+			<div class = "line">
+				<div class = "calendar_divisions occupied procrastinate"> 
+					<span class = "time2digits">15:00 </span>		<span> find something to do </span>
+				</div>
+			</div>	
+			
+			<div class = "line">
+				<div class = "calendar_divisions occupied"> 
+					<span class = "time2digits">16:00 </span>		<span> business meeting </span>
+				</div>
+			</div>
+			
+			<div class = "line">
+				<div class = "calendar_divisions occupied procrastinate"> 
+					<span class = "time2digits">17:00 </span>		<span> think about the universe </span>
+				</div>
+			</div>
+			
+			<div class = "line">
+				<div class = "calendar_divisions occupied"> 
+					<span class = "time2digits">18:00 </span>		<span> time to go home </span>
+				</div>
+			</div>
+			
+			<div class = "line">
+				<div class = "calendar_divisions occupied"> 
+					<span class = "time2digits">19:00 </span>		<span> do something productive </span>
+				</div>
+			</div>
+			
+			<div class = "line">
+				<div class = "calendar_divisions occupied procrastinate"> 
+					<span class = "time2digits time_extended_by_a_line">20:00 </span>		<span> who are you kidding; put on some Netflix </span>
+				</div>
+			</div>
 		
-		<div class = "calendar lower"> 
-			<!-- TODO implement it with js, reading from a db, and adding everything to a div box; there will be
-			a div.time; div.title; -->
-
-			<div class = "calendar_divisions occupied"> 
-				<span class = "time">7:00 </span>       	<span> wake up </span>
+			<div class = "line">
+				<div class = "calendar_divisions occupied"> 
+					<span class = "time2digits">21:00 </span>		<span> dinner </span>
+				</div>
 			</div>
-			
-			<div class = "calendar_divisions occupied"> 
-				<span class = "time">8:00 </span>        <span class = ""> go to work </span>
-			</div>
-			
-			<div class = "calendar_divisions"> 
-				<span class = "time">9:00 </span>		<span class = "" style = "padding: 3em;">  </span>
-			</div>
-			
-			<div class = "calendar_divisions occupied procrastinate"> 
-				<span class = "time2digits">10:00 </span>		<span class = ""> procrastinate </span>
-			</div>
-			
-			<div class = "calendar_divisions occupied first-long"> 
-				<span class = "time2digits">11:00 </span>		<span class = ""> work </span>
-			</div>
-			
-			<div class = "calendar_divisions occupied last-long"> 
-				<span class = "time2digits">12:00 </span>		<span class = ""> work </span>
-			</div>
-			
-			<div class = "calendar_divisions occupied"> 
-				<span class = "time2digits">13:00 </span>		<span class = ""> lunch </span>
-			</div>
-			
-			<div class = "calendar_divisions occupied procrastinate"> 
-				<span class = "time2digits">14:00 </span>		<span class = ""> procrastinate </span>
-			</div>
-			
-			<div class = "calendar_divisions occupied procrastinate"> 
-				<span class = "time2digits">15:00 </span>		<span class = ""> find something to do </span>
-			</div>
-			
-			<div class = "calendar_divisions occupied"> 
-				<span class = "time2digits">16:00 </span>		<span class = ""> business meeting </span>
-			</div>
-			
-			<div class = "calendar_divisions occupied procrastinate"> 
-				<span class = "time2digits">17:00 </span>		<span class = ""> think about the universe </span>
-			</div>
-			
-			<div class = "calendar_divisions occupied"> 
-				<span class = "time2digits">18:00 </span>		<span class = ""> time to go home </span>
-			</div>
-			
+		
 		</div>
 		
 	</body><!-- https://support.google.com/calendar/answer/41207?hl=en -->

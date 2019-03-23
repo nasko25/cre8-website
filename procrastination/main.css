@@ -20,49 +20,47 @@ html {
 	overflow: auto;
 }
 
-.calendar_entries {
-	border-bottom: solid;
-	border-bottom-color: #00b3b3;
-	border-bottom-width: 2px;
-	margin-left: 5px;
-	margin-right: 5px;
-	padding: 7px;
-}
-
 .to_the_right {
 	padding-right: 40px;
 	float: right;
 }
-.lower {
-	top: 70em;
-	
-}
 
 .time {
 	position: absolute;
-	top: 2em;
-	left: -2.2em;
+	top: 2.2em;
+	left: -2em;
 	color: #aaaaaa;
 	font-size: .8em;
 }
 
 .time2digits {
 	position: absolute;
-	top: 2em;
-	left: -2.6em;
+	top: 2.2em;
+	left: -2.5em;
 	color: #aaaaaa;
 	font-size: .8em;
 }
 
+.time_extended_by_a_line {
+	top: 3.65em;
+}
+
 .calendar_divisions {
 	position: relative;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	padding: 7px;
+}
+
+.line {
+	position: relative;	
 	border-bottom: solid;
 	border-bottom-color: #00b3b3;
 	border-bottom-width: 2px;
 	margin-left: 35px;
 	margin-right: 5px;
 	margin-bottom: 2px;
-	padding: 7px;
 }
 
 .occupied {
