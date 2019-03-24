@@ -1,3 +1,5 @@
+@font-face { font-family: Blackboard; src: url('../fonts/CFBlackboardPersonal-Regula.ttf'); } 
+
 html {
 	overflow:auto;
 	/*background: url("../../Photos/DSC01663.JPG");
@@ -21,10 +23,11 @@ body {
 	background: url("http://www.hddesktops.com/web/wallpapers/mac-osx-yosemite-mountains-wallpaper/4096x2160.jpg");
 	background-repeat: no-repeat;
 	margin: 0em;
-	height: 900px;
+	height: 1080px;
 	width: 100%;
 	position: relative;
 	background-size: cover;
+	background-position: center;
 }
 
 
@@ -34,8 +37,8 @@ body {
 	border-color: #aaaaaa;
 	border-width: 2px;
 	position:absolute;
-	top: 8em;
-	left: 5em;
+	top: 14em;
+	left: 15em;
 	width: 300px;
 	height: 500px;
 	overflow: auto;
@@ -133,4 +136,25 @@ body {
 
 #content {
 	visibility: hidden;
+}
+
+
+/*second page*/
+
+#second-page {
+	background: #ffffff;
+	height: 400px;
+	/* opacity: 0.5;*/
+}
+
+.title {
+	text-align: center;
+	font-family: Blackboard, sans-serif;
+	font-size: 5em;
+	padding-top: 0.5em;
+	margin-top: 0;
+}
+
+#phone {
+	margin-left: 16em;
 }
