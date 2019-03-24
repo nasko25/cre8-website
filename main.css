@@ -23,12 +23,10 @@ nav ul{
 
 .under_the_logo {
 	display: absolute; 
-	height: 1.5em; 
-	width: 3em; 
+	height: 80px;  
 	background: black; 
 	float: left;
 	padding: 0.3em;
-	font-size: 3em;
 	z-index: 3;
 }
 
@@ -66,7 +64,7 @@ nav li{
 	margin-left: -2.5%;
 	outline: 2px solid #FFFFFF;
 	outline-offset: -2.5em;
-	color: #000000;
+	color: #ffffff;
 	position: relative;width: 20%;
 	padding: 7em;
 	padding-top: 6em;
