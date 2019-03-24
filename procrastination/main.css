@@ -1,9 +1,30 @@
 html {
-	overflow:scroll;
+	overflow:auto;
+	/*background: url("../../Photos/DSC01663.JPG");
+	background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	 /*background-attachment: fixed;*/
+	/*background-position: center center;*/
 }
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
+}
+
+#first-page {
+	background: url("http://www.hddesktops.com/web/wallpapers/mac-osx-yosemite-mountains-wallpaper/4096x2160.jpg");
+	background-repeat: no-repeat;
+	margin: 0em;
+	height: 900px;
+	width: 100%;
+	position: relative;
+	background-size: cover;
 }
 
 
@@ -13,11 +34,12 @@ html {
 	border-color: #aaaaaa;
 	border-width: 2px;
 	position:absolute;
-	top: 20em;
+	top: 8em;
 	left: 5em;
 	width: 300px;
 	height: 500px;
 	overflow: auto;
+	background-color: white;
 }
 
 .to_the_right {
@@ -83,3 +105,12 @@ html {
 	
 }
 
+/*loading*/
+#loading {
+	visibility: visible;
+	
+}
+
+#content {
+	visibility: hidden;
+}
