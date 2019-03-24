@@ -144,6 +144,7 @@ body {
 #second-page {
 	background: #ffffff;
 	height: 400px;
+	position:relative;
 	/* opacity: 0.5;*/
 }
 
@@ -153,8 +154,33 @@ body {
 	font-size: 5em;
 	padding-top: 0.5em;
 	margin-top: 0;
+	margin-bottom: 0.5em;
 }
 
 #phone {
 	margin-left: 16em;
+	position: relative;
+}
+
+#insta-image {
+	position: absolute;
+	width: 300px;
+	height: 610px;
+	top: 25.5em;
+	left: 16.5em;
+	z-index: -1;
+}
+
+#instagram-description {
+	position: absolute;
+	left: 58em;
+	top: 18em;
+	font-size: 1.4em;
+	margin-right: 3em;
+	width: 400px;
+	border-top: double;
+	padding: 2em;
+}
+.paragraphs {
+	text-indent: 40px;
 }
