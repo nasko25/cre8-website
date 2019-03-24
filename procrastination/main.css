@@ -1,4 +1,5 @@
 @font-face { font-family: Blackboard; src: url('../fonts/CFBlackboardPersonal-Regula.ttf'); } 
+@font-face { font-family: MightyBrush; src: url("../fonts/Mighty Brush Demo.otf")}
 
 html {
 	overflow:auto;
@@ -862,4 +863,98 @@ body {
 		width: 400px;
 		padding: 1em;
 	}
+}
+
+/* third page */
+
+#third-page {
+	position: relative;
+	top: 700px;
+	height: 1040px;
+}
+
+.deceptive {
+	font-family: MightyBrush, Times;
+	font-size: 5em;
+	text-align: center;
+}
+
+
+ .images {
+	margin: 3em 0 0;
+}
+/*cat photo*/
+
+ .cat-photo {
+ 	margin: 0;
+ 	position: relative;
+
+ }
+
+ .cat-photo img {
+	 max-width: 100%;
+	height: auto;
+ 	display: block;
+ }
+
+ .photo-description {
+ 	position: absolute;
+ 	z-index: 100;
+ 	bottom: 0em;
+ 	left: 0em;
+ 	right: 0em;
+ 	color: white;
+	background: rgba(0,0,0,0.6); 
+	padding-bottom: 2em;
+	text-align: center;
+		box-sizing: border-box; 
+	transition: all ease-in-out 250ms;
+ }
+
+ .photo-description p {
+ 	margin: 1em;
+ }
+
+
+@media (min-width: 37rem) {
+	.cat-photo {
+		width: 50%;
+		float: left;
+	}
+}
+
+@media (min-width: 60rem) {
+	.cat-photo {
+		width: 33.333334%;
+		overflow: hidden; /* hides them */
+	}
+
+	.photo-description {
+		transform: translateY(150%); /*offsets them down by 150% */
+	}
+
+	.cat-photo:hover .photo-description {
+		transform: translateY(0%);
+	}
+}
+
+/*button*/
+.button {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: 0.5em 1.75em;
+	font-size: .7rem;
+	font-weight: 700;
+	color: #4881FF;
+	border-color: #4881FF;
+}
+
+
+.button:hover,
+.button:focus {
+	background:#4881FF;
+	color:#232323;
 }
