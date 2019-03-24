@@ -155,7 +155,7 @@ body {
 }
 	.calendar {
 		top: 2.5em;
-		left: 19em;
+		left: 16em;
 	}
 }
 
@@ -331,7 +331,6 @@ body {
 	background: #ffffff;
 	height: 400px;
 	position:relative;
-	/* opacity: 0.5;*/
 }
 
 .title {
@@ -343,9 +342,15 @@ body {
 	margin-bottom: 0.5em;
 }
 
+.plug {
+	margin-left: 5em; 
+	font-size: 3em;
+}
+
 #phone {
 	margin-left: 16em;
 	position: relative;
+	z-index: 1;
 }
 
 #insta-image {
@@ -354,7 +359,7 @@ body {
 	height: 610px;
 	top: 25.5em;
 	left: 16.5em;
-	z-index: -1;
+	z-index: 0;
 }
 
 #instagram-description {
@@ -369,4 +374,492 @@ body {
 }
 .paragraphs {
 	text-indent: 40px;
+}
+
+@media (max-width: 2000px) {
+	.title {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+	}
+	#insta-image {
+		top: 22em;
+	}
+	#instagram-description {
+		top: 16em;
+		left: 52em;
+	}
+}
+
+@media (max-width: 1800px) {
+	.title {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+	}
+	#insta-image {
+		top: 22em;
+	}
+	#instagram-description {
+		top: 16em;
+		left: 48em;
+	}
+}
+
+@media (max-width: 1700px) {
+	.title {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+	}
+	#insta-image {
+		top: 22em;
+	}
+	#instagram-description {
+		top: 16em;
+		left: 44em;
+	}
+}
+
+@media (max-width: 1550px) {
+	.title {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+	}
+	#insta-image {
+		top: 22em;
+	}
+	#instagram-description {
+		top: 16em;
+		left: 42em;
+	}
+}
+
+@media (max-width: 1500px) {
+	.title {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		margin-left: 4.5em; 
+	}
+	#phone {
+		margin-left: 15em;
+	}
+	#insta-image {
+		top: 22em;
+		left: 15.5em;
+	}
+	#instagram-description {
+		top: 16em;
+		left: 40em;
+	}
+}
+
+
+@media (max-width: 1400px) {
+	.title {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		margin-left: 4em; 
+	}
+	#phone {
+		margin-left: 13.5em;
+	}
+	#insta-image {
+		top: 22em;
+		left: 14em;
+	}
+	#instagram-description {
+		top: 16em;
+		left: 34em;
+	}
+}
+
+@media (max-width: 1300px) {
+	.title {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		margin-left: 3.5em; 
+	}
+	#phone {
+		margin-left: 11.5em;
+	}
+	#insta-image {
+		top: 22em;
+		left: 12em;
+	}
+	#instagram-description {
+		top: 16em;
+		left: 30em;
+	}
+}
+
+@media (max-width: 1200px) {
+	.title {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+		font-size: 4em;
+	}
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		margin-left: 2.6em; 
+		
+		font-size: 2.4em;
+	}
+	#phone {
+		margin-left: 7.5em;
+		width: 270px;
+	}
+	#insta-image {
+		top: 18.1em;
+		left: 8em;
+		width: 260px;
+		height: 520px;
+	}
+	#instagram-description {
+		top: 16em;
+		left: 25em;
+		
+		font-size: 1.4em;
+		margin-right: 3em;
+		width: 400px;
+		border-top: double;
+		padding: 2em;
+	}
+}
+
+@media (max-width: 1100px) {
+	.title {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+		font-size: 4em;
+	}
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		margin-left: 2.4em; 
+		
+		font-size: 2em;
+	}
+	#phone {
+		margin-left: 5.5em;
+		width: 200px;
+	}
+	#insta-image {
+		top: 16.5em;
+		left: 6em;
+		width: 180px;
+		height: 385px;
+	}
+	#instagram-description {
+		top: 16em;
+		left: 30em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		border-top: double;
+		padding: 2em;
+	}
+}
+
+@media (max-width: 1050px) {
+
+	#instagram-description {
+		top: 16em;
+		left: 26em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		border-top: double;
+		padding: 2em;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	#instagram-description {
+		top: 16em;
+		left: 22em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		border-top: double;
+		padding: 2em;
+	}
+}
+
+@media (max-width: 950px) {
+
+	#instagram-description {
+		top: 18em;
+		left: 20em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		border-top: double;
+		padding: 2em;
+	}
+}
+
+@media (max-width: 900px) {
+	
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		margin-left: 1.4em; 
+		
+		font-size: 2em;
+	}
+	#phone {
+		margin-left: 4.2em;
+		width: 200px;
+	}
+	#insta-image {
+		top: 16.5em;
+		left: 4.8em;
+		width: 180px;
+		height: 385px;
+	}
+
+	#instagram-description {
+		top: 18em;
+		left: 18em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		border-top: double;
+		padding: 2em;
+	}
+}
+
+@media (max-width: 800px) {
+	
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		text-align: center; 
+		
+		font-size: 2em;
+	}
+	#phone {
+		margin-left: 20em;
+		width: 200px;
+	}
+	#insta-image {
+		top: 16.5em;
+		left: 20.5em;
+		width: 180px;
+		height: 385px;
+	}
+
+	#instagram-description {
+		top: 42em;
+		left: 10em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		border-top: double;
+		padding: 2em;
+	}
+}
+
+@media (max-width: 720px) {
+	
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		text-align: center; 
+		
+		font-size: 2em;
+	}
+	#phone {
+		margin-left: 15em;
+		width: 200px;
+	}
+	#insta-image {
+		top: 16.5em;
+		left: 15.5em;
+		width: 180px;
+		height: 385px;
+	}
+
+	#instagram-description {
+		top: 42em;
+		left: 8em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		border-top: double;
+		padding: 2em;
+	}
+}
+@media (max-width: 709px) {
+	
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		text-align: center; 
+		
+		font-size: 2em;
+	}
+	#phone {
+		margin-left: 15em;
+		width: 200px;
+	}
+	#insta-image {
+		top: 21.3em;
+		left: 15.5em;
+		width: 180px;
+		height: 385px;
+	}
+
+	#instagram-description {
+		top: 46em;
+		left: 8em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		padding: 2em;
+	}
+}
+
+@media (max-width: 650px) {
+	
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		text-align: center; 
+		
+		font-size: 2em;
+	}
+	#phone {
+		margin-left: 13em;
+		width: 200px;
+	}
+	#insta-image {
+		top: 21.3em;
+		left: 13.5em;
+		width: 180px;
+		height: 385px;
+	}
+
+	#instagram-description {
+		top: 46em;
+		left: 4.5em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		padding: 2em;
+	}
+}
+@media (max-width: 600px) {
+	
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		text-align: center; 
+		
+		font-size: 2em;
+	}
+	#phone {
+		margin-left: 11.5em;
+		width: 200px;
+	}
+	#insta-image {
+		top: 21.3em;
+		left: 12em;
+		width: 180px;
+		height: 385px;
+	}
+
+	#instagram-description {
+		top: 46em;
+		left: 3em;
+		
+		font-size: 1.1em;
+		margin-right: 3em;
+		width: 400px;
+		padding: 2em;
+	}
+}
+
+@media (max-width: 550px) {
+	
+	.plug {
+		margin-top: 0.2em;
+		padding-top: 0em;
+		padding-bottom: 0.5em;
+		text-align: center; 
+		
+		font-size: 2em;
+	}
+	#phone {
+		margin-left: 10em;
+		width: 200px;
+	}
+	#insta-image {
+		top: 21.3em;
+		left: 10.5em;
+		width: 180px;
+		height: 385px;
+	}
+
+	#instagram-description {
+		top: 50em;
+		left: 1.5em;
+		
+		font-size: 1em;
+		margin-right: 3em;
+		width: 400px;
+		padding: 1em;
+	}
 }
