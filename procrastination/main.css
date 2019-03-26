@@ -1021,3 +1021,15 @@ body {
 		margin-top: 0;
 	}
 }
+
+/* fourth page */
+
+#fourth-page {
+	position: relative;
+	top: 700px;
+	height: 1000px;
+}
+
+#dr-photo {
+	border-radius: 50%;
+}
