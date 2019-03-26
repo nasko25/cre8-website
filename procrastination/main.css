@@ -1068,3 +1068,24 @@ body {
 	left: 13em;
 	top: 42.33em;
 }
+
+footer {
+	position: relative; 
+	top: 40em;
+}
+
+#copyright {
+	display: inline;
+	position: absolute;
+	text-align: center;
+	color: #999999;
+	margin-left: 0.4%;
+	top: 1.6em;
+}
+
+#logo {
+	width: 110px;
+	display: inline-block;
+	margin-left: 38%;
+	margin-right: auto;
+}
