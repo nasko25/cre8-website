@@ -1,5 +1,7 @@
 @font-face { font-family: Blackboard; src: url('../fonts/CFBlackboardPersonal-Regula.ttf'); } 
-@font-face { font-family: MightyBrush; src: url("../fonts/Mighty Brush Demo.otf")}
+@font-face { font-family: MightyBrush; src: url("../fonts/Mighty Brush Demo.otf"); }
+@font-face { font-family: Ageo; src: url("../fonts/AgeoPersonalUse.otf"); }
+@font-face { font-family: Ageo; src: url("../fonts/AgeoPersonalUse-Bold.otf"); font-weight: bold;}
 
 html {
 	overflow:auto;
@@ -346,6 +348,7 @@ body {
 .plug {
 	margin-left: 5em; 
 	font-size: 3em;
+	font-family: Ageo;
 }
 
 #phone {
@@ -365,11 +368,12 @@ body {
 
 #instagram-description {
 	position: absolute;
-	left: 58em;
-	top: 18em;
-	font-size: 1.4em;
+	left: 37em;
+	top: 14em;
+	font-size: 2em;
+	font-family: Ageo; 
 	margin-right: 3em;
-	width: 400px;
+	width: 600px;
 	border-top: double;
 	padding: 2em;
 }
@@ -391,8 +395,8 @@ body {
 		top: 22em;
 	}
 	#instagram-description {
-		top: 16em;
-		left: 52em;
+		top: 13em;
+		left: 32em;
 	}
 }
 
@@ -410,8 +414,8 @@ body {
 		top: 22em;
 	}
 	#instagram-description {
-		top: 16em;
-		left: 48em;
+		top: 13em;
+		left: 28em;
 	}
 }
 
@@ -429,8 +433,8 @@ body {
 		top: 22em;
 	}
 	#instagram-description {
-		top: 16em;
-		left: 44em;
+		top: 13em;
+		left: 24em;
 	}
 }
 
@@ -448,8 +452,9 @@ body {
 		top: 22em;
 	}
 	#instagram-description {
-		top: 16em;
-		left: 42em;
+		top: 19em;
+		left: 28em;
+		font-size: 1.6em;
 	}
 }
 
@@ -472,8 +477,9 @@ body {
 		left: 15.5em;
 	}
 	#instagram-description {
-		top: 16em;
-		left: 40em;
+		top: 20.5em;
+		left: 27em;
+		font-size: 1.5em;
 	}
 }
 
@@ -497,8 +503,10 @@ body {
 		left: 14em;
 	}
 	#instagram-description {
-		top: 16em;
-		left: 34em;
+		top: 24em;
+		left: 33em;
+		font-size: 1.3em;
+		width: 500px;
 	}
 }
 
@@ -521,8 +529,8 @@ body {
 		left: 12em;
 	}
 	#instagram-description {
-		top: 16em;
-		left: 30em;
+		top: 24em;
+		left: 28em;
 	}
 }
 
@@ -587,10 +595,10 @@ body {
 		height: 385px;
 	}
 	#instagram-description {
-		top: 16em;
-		left: 30em;
+		top: 15em;
+		left: 24em;
 		
-		font-size: 1.1em;
+		font-size: 1.3em;
 		margin-right: 3em;
 		width: 400px;
 		border-top: double;
@@ -601,42 +609,26 @@ body {
 @media (max-width: 1050px) {
 
 	#instagram-description {
-		top: 16em;
-		left: 26em;
-		
-		font-size: 1.1em;
-		margin-right: 3em;
-		width: 400px;
-		border-top: double;
-		padding: 2em;
+		top: 15em;
+		left: 22em;
+
 	}
 }
 
 @media (max-width: 1000px) {
 
 	#instagram-description {
-		top: 16em;
-		left: 22em;
-		
-		font-size: 1.1em;
-		margin-right: 3em;
-		width: 400px;
-		border-top: double;
-		padding: 2em;
+		top: 15em;
+		left: 20em;
 	}
 }
 
 @media (max-width: 950px) {
 
 	#instagram-description {
-		top: 18em;
+		top: 16em;
 		left: 20em;
-		
-		font-size: 1.1em;
-		margin-right: 3em;
-		width: 400px;
-		border-top: double;
-		padding: 2em;
+		font-size: 1.2em;
 	}
 }
 
@@ -662,14 +654,15 @@ body {
 	}
 
 	#instagram-description {
-		top: 18em;
+		top: 16em;
 		left: 18em;
-		
-		font-size: 1.1em;
-		margin-right: 3em;
-		width: 400px;
-		border-top: double;
-		padding: 2em;
+	}
+}
+
+@media (max-width: 850px) {
+	#instagram-description {
+		top: 16em;
+		left: 16em;
 	}
 }
 
@@ -870,7 +863,7 @@ body {
 #third-page {
 	position: relative;
 	top: 700px;
-	height: 1040px;
+	height: 1000px;
 }
 
 .deceptive {
@@ -977,6 +970,13 @@ body {
 	#third-page {
 		height: 960px;
 	}
+}
+
+@media (max-width: 1290px) {
+	#third-page {
+		height: 660px;
+	}
+}
 
 @media (max-width: 1200px) {
 	#third-page {
