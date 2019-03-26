@@ -2,6 +2,7 @@
 @font-face { font-family: MightyBrush; src: url("../fonts/Mighty Brush Demo.otf"); }
 @font-face { font-family: Ageo; src: url("../fonts/AgeoPersonalUse.otf"); }
 @font-face { font-family: Ageo; src: url("../fonts/AgeoPersonalUse-Bold.otf"); font-weight: bold;}
+@font-face { font-family: Quote; src: url("../fonts/Quote.ttf"); }
 
 html {
 	overflow:auto;
@@ -1047,7 +1048,7 @@ body {
 	font-size: 4em;
 	margin-top: 2em;
 	margin-left: 2em;
-	font-family: Helvetica;
+	font-family: Quote Helvetica;
 	width: 15em;
 	text-indent: 1.3em;
 }
@@ -1065,5 +1066,5 @@ body {
 	position: absolute;
 	width: 550px;
 	left: 13em;
-	top: 42.5em;
+	top: 42.33em;
 }
