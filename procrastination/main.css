@@ -1089,3 +1089,223 @@ footer {
 	margin-left: 38%;
 	margin-right: auto;
 }
+#darts {
+	width: 1200px;
+	position:absolute;
+	top: 10em;
+	right: 8em;
+	z-index:-1;
+}
+
+
+@media (max-width: 2000px) {
+
+	#darts {
+		width: 1100px;
+	}
+	
+	#dr-photo {
+		margin-top: 4.5em;
+	}
+	
+	#quote {
+		font-size: 3.5em;
+		text-indent: 1.2em;
+	}
+	
+	#citat-line {
+		width: 580px;
+		left: 11.5em;
+		top: 40.65em;
+	}
+}
+
+@media (max-width: 1800px) {
+	#fourth-page {
+		top: 600px;
+		height: 800px;
+	}
+
+	#darts {
+		width: 900px;
+		right: 6em;
+	}
+	
+	#dr-photo {
+		margin-left: 8em;
+	}
+	
+	#quote {
+		margin-left: 1.5em;
+	}
+	
+	#citat-line {
+		width: 500px;
+		left: 10em;
+		top: 40.65em;
+	}
+	#citation {
+		margin-left: 22em;
+	}
+}
+
+@media (max-width: 1600px) {
+	#fourth-page {
+		top: 600px;
+		height: 750px;
+	}
+	
+	#darts {
+		width: 800px;
+		top: 11em;
+	}
+	#dr-photo {
+		margin-left: 6em;
+	}
+
+	#quotation-mark {
+		font-size: 13em;
+		top: 0.2em;
+		left: 1.8em;
+	}
+
+	#quote {
+		font-size: 3.4em;
+		text-indent: 1.1em;
+	}
+
+	#citation {
+		font-size: 1.9em; 
+		margin-left: 23em;
+		font-family: Ageo;
+	}
+
+	#citat-line {
+		position: absolute;
+		width: 530px;
+		left: 9em;
+		top: 40.25em;
+	}
+}
+
+@media (max-width: 1500px) {
+	#fourth-page {
+		top: 500px;
+		height: 600px;
+	}
+	
+	#darts {
+		width: 750px;
+	}
+	
+	#quotation-mark {
+		font-size: 11em;
+		top: 0.5em;
+		left: 2em;
+	}
+
+	#quote {
+		font-size: 3em;
+		text-indent: 0.9em;
+	}
+
+	#citation {
+		font-size: 1.8em; 
+		margin-left: 21em;
+	}
+
+	#citat-line {
+		position: absolute;
+		width: 450px;
+		left: 7.5em;
+		top: 37.45em;
+	}
+}
+
+
+@media (max-width: 1400px) {
+	#fourth-page {
+		height: 500px;
+	}
+	#darts {
+		width: 650px;
+	}
+	#quotation-mark {
+		top: 0.1em;
+		left: 1.8em;
+	}
+
+	#quote {
+		font-size: 2.5em;
+		width: 17em;
+	}
+
+	#citat-line {
+		position: absolute;
+		left: 6.5em;
+		top: 31.7em;
+	}
+	
+	#dr-photo {
+		margin-top: 2em;
+	}
+}
+
+@media (max-width: 1300px) {
+	#fourth-page {
+		top: 800px;
+		height: 700px;
+	}
+	footer {
+		top: 45em;
+	}
+	#darts {
+		top: 9em;
+	}
+}
+
+@media (max-width: 1200px) {
+	
+}
+
+@media (max-width: 1100px) {
+	
+}
+
+@media (max-width: 1050px) {
+	
+}
+
+@media (max-width: 1000px) {
+	
+}
+
+@media (max-width: 950px) {
+	
+}
+
+@media (max-width: 900px) {
+	
+}
+
+@media (max-width: 800px) {
+	
+}
+
+@media (max-width: 720px) {
+	
+}
+@media (max-width: 709px) {
+	
+}
+
+@media (max-width: 650px) {
+	
+}
+@media (max-width: 600px) {
+	
+}
+
+@media (max-width: 550px) {
+	
+}
