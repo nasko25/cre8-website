@@ -51,8 +51,8 @@ body {
   display: block;
   position: absolute; 
   height:0;
-  margin-top:10em;
-  margin-left: 50em;
+  margin-top:30em;
+  margin-left: 90em;
   opacity:0.4;
   text-indent:-9999px;
   transform-origin: 50% 50%;
@@ -61,6 +61,20 @@ body {
 .down {
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
   border-top:2em solid #00b6f1;
+}
+
+@media(max-height: 720px) {
+	#definition {
+		margin-top: 10em;
+	}
+	
+	#dictionary {
+		height: 720px;
+	}
+	.arrow {
+		margin-top: 15em; 
+		margin-left: 50em;
+	}
 }
 
 /* first page */
@@ -103,6 +117,15 @@ body {
 }
 
 /* calendar */
+
+#title_calendar {
+	position:absolute; 
+	top: 4.5em; 
+	left: 7.8em; 
+	width: 300px; 
+	font-size: 2em;
+}
+/*TODO: title ^^^^ for 720p*/
 .calendar {
 	border-style: solid;
 	border-color: #aaaaaa;
@@ -325,7 +348,7 @@ body {
 }
 
 .procrastinate {
-	background: #4584FF;
+	background: #33FFFF;
 }
 
 .first-long {
