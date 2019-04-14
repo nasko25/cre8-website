@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	display: relative;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.gif {
+	margin-left: 30em;
+}
+
+#copyright {
+	display: inline;
+	position: absolute;
+	text-align: center;
+	color: #999999;
+	margin-left: 0.4%;
+	margin-bottom: 0;
+	padding-top: 2em;
+}
+
+#logo {
+	width: 110px;
+	display: inline-block;
+	margin-left: 38%;
+	margin-right: auto;
+}
+
+#image {
+	margin-top: 3em; 
+	margin-left: 5em;
+}
+
+@media (max-height: 725px) {
+	#image {
+		width: 600px;
+		height: auto;
+	}
+	.gif {
+		position: absolute;
+		margin-left: 12em;
+	}
+}
