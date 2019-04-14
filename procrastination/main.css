@@ -66,7 +66,7 @@ body {
 	text-indent: 40px;
 }
 
-@media (min-width: 720px) {
+@media (min-height: 725px) {
 	#definition h4 {
 		font-size: 3.5em;
 	}
@@ -80,7 +80,11 @@ body {
 	}
 	#message_about_procrastination {
 		margin-top: 40em;
+		width: 800px;
 	} /*TODO fix this ^^^ for 1080p*/
+	#message_about_procrastination p {
+		font-size: 2em;
+	}
 }
 
 /* arrow */ 
