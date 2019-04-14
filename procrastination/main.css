@@ -38,6 +38,51 @@ body {
 	margin-left: 20em;
 }
 
+#definition h4 {
+	font-size: 2em; 
+	margin: 0; 
+	border-bottom: solid; 
+	border-bottom-color: #333333; 
+	border-bottom-width: 2px; 
+	padding-bottom: 0.2em;
+}
+
+#definition p {
+	margin-top: 1em;
+}
+
+#definition li {
+	font-size: 1.5em;
+}
+
+#message_about_procrastination {
+	position: absolute; 
+	margin-top: 25em;
+	margin-left: 16em;
+	width: 700px;
+}
+#message_about_procrastination p {
+	font-size: 1.5em;
+	text-indent: 40px;
+}
+
+@media (min-width: 720px) {
+	#definition h4 {
+		font-size: 3.5em;
+	}
+	#definition p {
+		font-size: 2em;
+		margin-top: 0.5em;
+	}
+	#definition li {
+		font-size: 2em;
+		margin-top: 1em;
+	}
+	#message_about_procrastination {
+		margin-top: 40em;
+	} /*TODO fix this ^^^ for 1080p*/
+}
+
 /* arrow */ 
 @-webkit-keyframes downarrow {
   0% { -webkit-transform: translateY(0); opacity: 0.4 }
@@ -51,7 +96,7 @@ body {
   display: block;
   position: absolute; 
   height:0;
-  margin-top:30em;
+  margin-top: 22em;
   margin-left: 90em;
   opacity:0.4;
   text-indent:-9999px;
@@ -60,7 +105,7 @@ body {
 }
 .down {
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
-  border-top:2em solid #00b6f1;
+  border-top:2em solid #81ACFF;
 }
 
 @media(max-height: 720px) {
@@ -75,8 +120,12 @@ body {
 		margin-top: 15em; 
 		margin-left: 50em;
 	}
+} 
+@media(max-width: 1204px) {
+	.arrow { left: 0;
+		margin-left: -15em;
+	}
 }
-
 /* first page */
 #first-page {
 	background: url("https://i.imgur.com/CPwmfc5.jpg");
@@ -125,7 +174,13 @@ body {
 	width: 300px; 
 	font-size: 2em;
 }
-/*TODO: title ^^^^ for 720p*/
+
+@media(max-height: 720px) {
+	#title_calendar {
+		left: 3em;
+	}
+}
+
 .calendar {
 	border-style: solid;
 	border-color: #aaaaaa;
@@ -1307,7 +1362,7 @@ footer {
 	#citat-line {
 		position: absolute;
 		left: 6.5em;
-		top: 31.7em;
+		top: 31.9em;
 	}
 	
 	#dr-photo {
