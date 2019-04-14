@@ -23,8 +23,49 @@ body {
     background: transparent; /* make scrollbar transparent */
 }
 
+#dictionary {
+	height: 1080px;
+	width: 100%;
+	background: url("Photos/page.png");
+	margin-top: 0;
+	background-size: cover; 
+	top:0;
+}
+
+#definition {
+	position: absolute;
+	margin-top: 15em;
+	margin-left: 20em;
+}
+
+/* arrow */ 
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+}
+
+.arrow {
+  border-color:transparent;
+  border-style:solid;
+  border-width:0 2em;
+  display: block;
+  position: absolute; 
+  height:0;
+  margin-top:10em;
+  margin-left: 50em;
+  opacity:0.4;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  width:0;
+}
+.down {
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  border-top:2em solid #00b6f1;
+}
+
+/* first page */
 #first-page {
-	background: url("http://www.hddesktops.com/web/wallpapers/mac-osx-yosemite-mountains-wallpaper/4096x2160.jpg");
+	background: url("https://i.imgur.com/CPwmfc5.jpg");
 	background-repeat: no-repeat;
 	margin: 0em;
 	height: 1080px;

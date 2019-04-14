@@ -13,8 +13,29 @@
 			document.getElementById("content").style.visibility = "visible";
 		})
 		
-		</script>
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+			e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
 		
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
+		<script> 
+					
+		$(document).ready(function() {
+			$('a[href*=\\#]').on('click', function(e){
+			e.preventDefault();
+				$('html, body').animate({
+				scrollTop : $(this.hash).offset().top
+				}, 500);
+			});
+		});
+		</script>
 	</head>
 
 	
@@ -24,6 +45,19 @@
 		<div id = "loading"> 
 			
 		</div>
+		
+		<div id = "dictionary"> 
+			<div id = "definition">
+				<h4 style = "font-size: 2em; margin: 0; border-bottom: solid; border-bottom-color: #333333; border-bottom-width: 2px; padding-bottom: 0.2em;"> procrastinate </h4>
+				<p style = "margin-top: 1em;"> verb | ​/prəˈkræs.tɪ.neɪt/ </p>
+				<ul style = "list-style-type: circle;"> 
+				<li style = "font-size: 1.5em;"> to put off till another day or time; defer; delay: 
+				<p style = "font-size: 0.8em; margin-top: 0.5em; font-style: italic; "> It is not professinal to procrastinate. </p>
+				</li> </ul>
+				 <a href="#first-page" class="arrow down"> Down </a>
+			</div>
+		</div>
+		
 		<div id = "first-page">
 			<div class = "calendar"> 
 				<!-- TODO implement it with js, reading from a db, and adding everything to a div box; there will be
@@ -170,8 +204,8 @@
 
 		<div id = "fourth-page"> 
 			<img src = "Photos/tim.jpg" id = "dr-photo"> </img>
-			<p id = "quotation-mark">”</p>
-			<p id = "quote"> Motivation follows action. Get started, and you will find your motivation follows.”</p>
+			<p id = "quotation-mark"> &#8220; </p>
+			<p id = "quote"> Motivation follows action. Get started, and you will find your motivation follows.&#8221;</p>
 			<div id = "citat-line"> </div>
 			<p id = "citation"> Dr. Pychyl </p>
 			
